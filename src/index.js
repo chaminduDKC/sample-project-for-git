@@ -17,7 +17,6 @@ app.get("/contact", (req, res) => {
     res.send("Contact Page");
 });
 
-
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
